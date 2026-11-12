@@ -1,0 +1,95 @@
+# Konfiguracja AI Reader — edytuj śmiało, kod niczego tu nie zakłada na sztywno.
+
+# Ile godzin wstecz brać artykuły (przy codziennym cronie 36h daje zapas na opóźnienia feedów).
+lookback_hours: 36
+# Minimalny wynik, żeby artykuł trafił na Discord.
+threshold: 5
+# Maksymalnie tyle linków dziennie (najwyżej punktowane).
+max_items: 8
+# Ile dni pamiętać wysłane artykuły (deduplikacja).
+seen_retention_days: 60
+# Próg podobieństwa tytułów (0–1), powyżej którego uznajemy artykuł za duplikat.
+title_similarity: 0.85
+
+# weight: punkty bazowe za samo źródło.
+# require_keyword: true = artykuł musi trafić w co najmniej jedno pozytywne słowo kluczowe
+#   (dla agregatorów i ogólnych blogów, gdzie AI to tylko część treści).
+feeds:
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    weight: 3
+    require_keyword: true
+  - name: Eugene Yan
+    url: https://eugeneyan.com/rss/
+    weight: 4
+  - name: Hamel Husain
+    url: https://hamel.dev/index.xml
+    weight: 4
+  - name: Chip Huyen
+    url: https://huyenchip.com/feed.xml
+    weight: 4
+  - name: Latent Space
+    url: https://www.latent.space/feed
+    weight: 3
+  - name: Interconnects
+    url: https://www.interconnects.ai/feed
+    weight: 2
+  - name: Import AI
+    url: https://importai.substack.com/feed
+    weight: 1
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    weight: 1
+    require_keyword: true
+  - name: OpenAI News
+    url: https://openai.com/news/rss.xml
+    weight: 1
+    require_keyword: true
+  - name: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+    weight: 1
+    require_keyword: true
+  - name: Martin Fowler
+    url: https://martinfowler.com/feed.atom
+    weight: 1
+    require_keyword: true
+  - name: The Pragmatic Engineer
+    url: https://newsletter.pragmaticengineer.com/feed
+    weight: 1
+    require_keyword: true
+  - name: Lenny's Newsletter
+    url: https://www.lennysnewsletter.com/feed
+    weight: 0
+    require_keyword: true
+  - name: Hacker News (100+ pkt)
+    url: https://hnrss.org/frontpage?points=100
+    weight: 0
+    require_keyword: true
+
+# Słowa kluczowe: regex (bez rozróżniania wielkości liter) -> punkty.
+# Trafienie w tytule liczy się podwójnie, w opisie pojedynczo; każde słowo liczone raz.
+keywords:
+  # wdrożenia i praktyka
+  'in production|production[- ]ready|productioni[sz]': 3
+  'case stud(y|ies)|lessons learned|post-?mortem|war stor': 3
+  'deploy(ing|ment|ed)?|rollout|wdroż': 2
+  '\bevals?\b|evaluation|llm[- ]as[- ]a[- ]judge|benchmark(ing)? your': 3
+  'observability|monitoring|tracing|guardrails?': 2
+  'cost|latency|caching|inference optimi': 1
+  # architektura i budowanie
+  '\bRAG\b|retrieval|vector (db|database|search)|embedding': 2
+  '\bagents?\b|agentic|tool use|function calling|\bMCP\b': 2
+  'fine-?tun|distillation|prompt engineering|context engineering': 1
+  'architecture|system design|platform team': 1
+  # produkt i organizacja
+  'AI (product|PM|product manag)|product management|roadmap': 2
+  'adoption|team|org(ani[sz]ation)?|enterprise|ROI': 1
+  # rdzeń tematu — żeby require_keyword łapał artykuły o AI
+  '\bLLMs?\b|large language model|generative AI|\bGenAI\b|\bAI\b': 1
+
+# Słowa, które obniżają wynik (hype, finansowanie, plotki).
+negative_keywords:
+  'raises \$|funding round|series [A-D]\b|valuation|acquir(es|ed|ition)': -5
+  'stock|shares (rose|fell)|IPO': -4
+  'rumou?r|leak(ed)?|reportedly': -2
+  'giveaway|webinar|sponsored': -3
