@@ -1,1 +1,14 @@
-{}
+{
+ "https://martinfowler.com/articles/tests-as-data.html": {
+  "sent_at": "2026-11-12T17:04:50.349671+00:00",
+  "title": "tests as data ensuring aigenerated code does what we want"
+ },
+ "https://simonwillison.net/2026/Nov/11/aws-emulator": {
+  "sent_at": "2026-11-12T17:04:50.349671+00:00",
+  "title": "awsemulator"
+ },
+ "https://simonwillison.net/2026/Nov/11/llm": {
+  "sent_at": "2026-11-12T17:04:50.349671+00:00",
+  "title": "llm 0372"
+ }
+}
