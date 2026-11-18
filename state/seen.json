@@ -1,4 +1,8 @@
 {
+ "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review": {
+  "sent_at": "2026-11-18T15:59:16.992633+00:00",
+  "title": "harvard researchers find ai coding agents shifted the bottleneck to code review"
+ },
  "https://github.com/Parcha-ai/agentrun/blob/main/README.md": {
   "sent_at": "2026-11-13T14:57:03.058598+00:00",
   "title": "show hn agentrun  opensource selfimproving managed agents"
@@ -14,6 +18,10 @@
  "https://lennysnewsletter.com/p/community-wisdom-when-you-become": {
   "sent_at": "2026-11-15T14:21:00.720853+00:00",
   "title": "community wisdom when you become the bottleneck for your ai agents the pull framework for pms product growth vs growth marketing boosting feedback response rates and more"
+ },
+ "https://martinfowler.com/articles/data-contracts.html": {
+  "sent_at": "2026-11-18T15:59:16.992633+00:00",
+  "title": "data contracts"
  },
  "https://martinfowler.com/articles/tests-as-data.html": {
   "sent_at": "2026-11-12T17:04:50.349671+00:00",
@@ -42,5 +50,9 @@
  "https://simonwillison.net/2026/Nov/14/datasette-llm": {
   "sent_at": "2026-11-15T14:21:00.720853+00:00",
   "title": "datasettellm 01a11"
+ },
+ "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents": {
+  "sent_at": "2026-11-18T15:59:16.992633+00:00",
+  "title": "external sandboxes for coding agents"
  }
 }
