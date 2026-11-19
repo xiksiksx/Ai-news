@@ -31,6 +31,10 @@
   "sent_at": "2026-11-16T16:29:24.001066+00:00",
   "title": "advancing computeruse agents for healthcare teams"
  },
+ "https://openai.com/index/managing-frontier-ai-risk": {
+  "sent_at": "2026-11-19T16:06:08.113605+00:00",
+  "title": "managing frontier ai risk from training to deployment"
+ },
  "https://perplexity.ai/hub/blog/perplexity-decider": {
   "sent_at": "2026-11-14T13:49:36.156288+00:00",
   "title": "perplexity decider v13 training eval and use cases"
@@ -54,5 +58,9 @@
  "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents": {
   "sent_at": "2026-11-18T15:59:16.992633+00:00",
   "title": "external sandboxes for coding agents"
+ },
+ "https://simonwillison.net/2026/Nov/18/daniel-stenberg": {
+  "sent_at": "2026-11-19T16:06:08.113605+00:00",
+  "title": "quoting daniel stenberg"
  }
 }
