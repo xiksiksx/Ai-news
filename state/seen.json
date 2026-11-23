@@ -3,6 +3,10 @@
   "sent_at": "2026-11-18T15:59:16.992633+00:00",
   "title": "harvard researchers find ai coding agents shifted the bottleneck to code review"
  },
+ "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification": {
+  "sent_at": "2026-11-23T18:47:02.608122+00:00",
+  "title": "finding faster quantum algorithms with agents and formal verification"
+ },
  "https://github.com/Parcha-ai/agentrun/blob/main/README.md": {
   "sent_at": "2026-11-13T14:57:03.058598+00:00",
   "title": "show hn agentrun  opensource selfimproving managed agents"
