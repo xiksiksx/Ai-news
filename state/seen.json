@@ -43,6 +43,10 @@
   "sent_at": "2026-11-21T14:57:15.051364+00:00",
   "title": "fragments november 20"
  },
+ "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you": {
+  "sent_at": "2026-11-24T18:22:41.870522+00:00",
+  "title": "llm agents work for their parent companies not for you"
+ },
  "https://openai.com/index/advancing-computer-use-for-healthcare-teams": {
   "sent_at": "2026-11-16T16:29:24.001066+00:00",
   "title": "advancing computeruse agents for healthcare teams"
@@ -98,5 +102,17 @@
  "https://simonwillison.net/2026/Nov/21/muru": {
   "sent_at": "2026-11-22T14:55:31.035847+00:00",
   "title": "muru"
+ },
+ "https://simonwillison.net/2026/Nov/23/glm-54": {
+  "sent_at": "2026-11-24T18:22:41.870522+00:00",
+  "title": "glm54 toward generalized coding with our first loop transformer"
+ },
+ "https://simonwillison.net/2026/Nov/24/datasette-agent": {
+  "sent_at": "2026-11-24T18:22:41.870522+00:00",
+  "title": "datasetteagent 07a1"
+ },
+ "https://simonwillison.net/2026/Nov/24/datasette-charts": {
+  "sent_at": "2026-11-24T18:22:41.870522+00:00",
+  "title": "datasettecharts 02a0"
  }
 }
