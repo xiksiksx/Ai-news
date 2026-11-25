@@ -11,6 +11,10 @@
   "sent_at": "2026-11-13T14:57:03.058598+00:00",
   "title": "show hn agentrun  opensource selfimproving managed agents"
  },
+ "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga": {
+  "sent_at": "2026-11-25T17:39:13.211140+00:00",
+  "title": "an indic voice agent with cuga"
+ },
  "https://latent.space/p/ainews-the-no-ai-slop-manifesto": {
   "sent_at": "2026-11-14T13:49:36.156288+00:00",
   "title": "ainews the no ai slop manifesto"
@@ -46,6 +50,10 @@
  "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you": {
   "sent_at": "2026-11-24T18:22:41.870522+00:00",
   "title": "llm agents work for their parent companies not for you"
+ },
+ "https://news.ycombinator.com/item?id=50634426": {
+  "sent_at": "2026-11-25T17:39:13.211140+00:00",
+  "title": "launch hn versine yc f26  mcp to send and receive money"
  },
  "https://openai.com/index/advancing-computer-use-for-healthcare-teams": {
   "sent_at": "2026-11-16T16:29:24.001066+00:00",
@@ -114,5 +122,9 @@
  "https://simonwillison.net/2026/Nov/24/datasette-charts": {
   "sent_at": "2026-11-24T18:22:41.870522+00:00",
   "title": "datasettecharts 02a0"
+ },
+ "https://simonwillison.net/2026/Nov/24/llm-inflection-points": {
+  "sent_at": "2026-11-25T17:39:13.211140+00:00",
+  "title": "three llm inflection points in twelve months"
  }
 }
