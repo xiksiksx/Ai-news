@@ -11,9 +11,17 @@
   "sent_at": "2026-11-13T14:57:03.058598+00:00",
   "title": "show hn agentrun  opensource selfimproving managed agents"
  },
+ "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents": {
+  "sent_at": "2026-11-26T17:21:37.263993+00:00",
+  "title": "where scientists draw the line on ai agents"
+ },
  "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga": {
   "sent_at": "2026-11-25T17:39:13.211140+00:00",
   "title": "an indic voice agent with cuga"
+ },
+ "https://huggingface.co/blog/training-swarms": {
+  "sent_at": "2026-11-26T17:21:37.263993+00:00",
+  "title": "swarms flocks gangs how to build train and evaluate multiagent systems"
  },
  "https://latent.space/p/ainews-the-no-ai-slop-manifesto": {
   "sent_at": "2026-11-14T13:49:36.156288+00:00",
@@ -126,5 +134,9 @@
  "https://simonwillison.net/2026/Nov/24/llm-inflection-points": {
   "sent_at": "2026-11-25T17:39:13.211140+00:00",
   "title": "three llm inflection points in twelve months"
+ },
+ "https://simonwillison.net/2026/Nov/26/hn-50651685": {
+  "sent_at": "2026-11-26T17:21:37.263993+00:00",
+  "title": "the new york times warns photographers not to update photoshop over ai features"
  }
 }
